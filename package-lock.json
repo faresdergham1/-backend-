@@ -1,20 +1,28 @@
 {
-  "name": "iot-backend",
+  "name": "smart-agriculture-backend",
   "version": "1.0.0",
-  "description": "Backend for IoT system",
-  "main": "index.js",
+  "description": "Backend server for Smart Agriculture IoT System",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.0.0",
-    "dotenv": "^16.3.1",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.3",
-    "jsonwebtoken": "^9.0.0"
+    "swagger-ui-express": "^5.0.0"
   }
 }
